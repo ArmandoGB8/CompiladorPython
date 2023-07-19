@@ -1,0 +1,10 @@
+var max=10;
+
+for(var i=0; i<10; i=i+1){
+    if(i<5){
+        print "menor a 5";
+    }
+    else{
+        print "mayor o igual a 5";
+    }
+}

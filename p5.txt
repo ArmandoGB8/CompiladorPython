@@ -1,0 +1,6 @@
+var radio = 5;
+var pi = 3.1416;
+var area = pi*radio *radio;
+
+print "El area es: ";
+print area;

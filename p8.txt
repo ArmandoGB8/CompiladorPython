@@ -1,0 +1,16 @@
+/*
+Código para calcula la serie de Fibonacci
+*/
+var fib = 0;
+var lim = 10;
+var aux = 1;
+var init = 1;
+
+while(init <= lim){
+    print fib;
+    aux = aux + fib;
+    fib = aux - fib;
+    init = init + 1;
+}
+
+print "Fin";

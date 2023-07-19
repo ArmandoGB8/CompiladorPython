@@ -1,0 +1,37 @@
+// Prueba 1:
+var nombre = "Gabriel"; var apellido = "Rodriguez"; print nombre + " " + apellido;
+
+
+// Prueba 2:
+var nombre = "Gabriel"; var apellido = "Rodriguez"; print nombre + " " + apellido +  edad;
+
+
+// Prueba 3:
+var radio = 5; var area = pi*radio *radio; print "El area es: "; print area;
+
+// Prueba 4:
+var radio = 5; var pi = "3.1416"; var area = pi*radio *radio; print "El area es: "; print area;
+
+
+// Prueba 5:
+var radio = 5; var pi = 3.1416; var area = pi*radio *radio; print "El area es: "; print area;
+
+
+// Prueba 6:
+var radio = 5; var pi = 3.1416; var area = pi*radio *radio; if(area > 100 and radio<10){ print "Condicion válida";}
+
+
+// Prueba 7:
+var radio = 5; var pi = 3.1416; var area = pi*radio *radio; if(area > 100 and radio<10){ print "Condicion válida";} else{ print "No se cumple el criterio";}
+
+
+// Prueba 8:
+/* Código para calcula la serie de Fibonacci */ var fib = 0; var lim = 10; var aux = 1; var init = 1; while(init <= lim){ print fib; aux = aux + fib; fib = aux - fib; init = init + 1; } print "Fin";
+
+
+// Prueba 9:
+/* Código para calcula la serie de Fibonacci */ var fib = 0; var lim = 10; var aux = 1; for(var init = 1; init <= lim; init = init + 1){ print fib; aux = aux + fib; fib = aux - fib;} print "Fin";
+
+
+//Prueba 10
+var max=10; for(var i=0; i<10; i=i+1){ if(i<5){ print "menor a 5"; } else{ print "mayor o igual a 5";}}
